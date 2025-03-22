@@ -33,15 +33,17 @@ body {
 .logo-container {
   display: flex;
   align-items: center;
+  gap: 0; /* 移除间距 */
 }
 
 .logo {
   width: 40px;
   height: 40px;
+  margin-right: 0; /* 移除右侧间距 */
 }
 
 .logo-text {
-  margin-left: 10px;
+  margin-left: 0; /* 移除左侧间距 */
   font-size: 18px;
   font-weight: 600;
 }
@@ -83,6 +85,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto; /* 确保水平居中 */
 }
 
 /* 标题样式 */
@@ -91,6 +94,7 @@ body {
   font-weight: 600;
   margin-bottom: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .subtitle {
@@ -98,6 +102,7 @@ body {
   color: #666;
   margin-bottom: 40px;
   text-align: center;
+  width: 100%;
 }
 
 /* 登录表单 */
@@ -110,12 +115,21 @@ body {
 .center-logo {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
   margin-bottom: 30px;
 }
 
 .form-logo {
   width: 60px;
   height: 60px;
+}
+
+.form-logo.logo-large {
+  height: 60px !important;
+  width: auto !important;
+  display: block;
+  margin: 0 auto; /* 确保水平居中 */
 }
 
 .error-message {
@@ -234,4 +248,55 @@ body {
 
 .arrow-icon {
   margin-left: 8px;
+}
+
+/* 放大中央logo图片 */
+.logo-large {
+  height: 100px !important; /* 增加高度 */
+  width: auto !important; /* 保持宽高比 */
+  margin-bottom: 20px; /* 增加底部间距 */
+  transition: transform 0.3s ease; /* 平滑过渡效果 */
+}
+
+/* 可选：添加一些悬停效果，使交互更丰富 */
+.logo-large:hover {
+  transform: scale(1.05); /* 鼠标悬停时轻微放大 */
+  filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.4)); /* 添加淡蓝色阴影 */
+}
+
+/* 确保logo容器有足够空间 */
+.center-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+/* 媒体查询：在小屏幕上进行适当调整 */
+@media (max-width: 480px) {
+  .logo-large {
+    height: 80px !important; /* 在小屏幕上稍微缩小 */
+  }
+}
+
+/* 在小屏幕上进行适当调整 */
+@media (max-width: 768px) {
+  .header .logo-container .logo {
+    height: 50px; /* 在中等屏幕上稍微小一点 */
+  }
+  
+  .header .brand-name {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .logo-container .logo {
+    height: 45px; /* 在更小的屏幕上再小一点 */
+  }
+  
+  .header .brand-name {
+    font-size: 1.4rem;
+  }
 }

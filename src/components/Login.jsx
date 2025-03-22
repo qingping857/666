@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './Login.css';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.jpg';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
     
     if (!username || !password) {
-      setError('请输入用户名和密码');
+      setError('Please enter your username and password.');
       return;
     }
 
@@ -48,14 +48,14 @@ const Login = () => {
       }
     } catch (err) {
       if (err.response && err.response.data) {
-        setError(err.response.data.message || '登录失败，请检查用户名和密码');
+        setError(err.response.data.message || 'Login failed, please check your username and password.');
         
         // Handle account lockout
         if (err.response.data.locked) {
-          setError(`账户已被锁定，请稍后再试`);
+          setError(`The account has been locked, please try again later`);
         }
       } else {
-        setError('登录失败，请稍后再试');
+        setError('Login failed, please try again later.');
       }
     } finally {
       setIsLoading(false);
@@ -88,9 +88,9 @@ const Login = () => {
 
           {/* 登录表单 */}
           <div className="login-form-wrapper">
-            {/* 中央Logo */}
+            {/* 中央Logo - 添加了logo-large类来放大中央logo */}
             <div className="center-logo">
-              <img src={logo} alt="TechFocus Logo" className="form-logo" />
+              <img src={logo} alt="TechFocus Logo" className="form-logo logo-large" />
             </div>
 
             {error && <div className="error-message">{error}</div>}
