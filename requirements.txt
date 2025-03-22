@@ -1,0 +1,10 @@
+scrapy
+bs4
+html5lib==1.1
+pillow==8.2.0
+sqlalchemy==1.2.1
+pymysql
+mitmproxy==5.0.0
+redis
+pymongo
+openpyxl

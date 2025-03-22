@@ -1,0 +1,1993 @@
+{
+  "_embedded": {
+    "results": [
+      {
+        "isCanceled": false,
+        "_rScore": 2,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:49:33+00:00",
+        "isActive": true,
+        "title": "10--MRAD Rifle System",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:49:33.004+00:00",
+            "content": "AMENDMENT NOTICE: This is a combined synopsis/solicitation for commercial items prepared in accordance with the format in FAR Subpart 12.6, as supplemented with additional information included in this notice. The solicitation number is 04282022 and i"
+          }
+        ],
+        "solicitationNumber": "04282022",
+        "responseDate": "2022-06-06T15:00:00+00:00",
+        "parentNoticeId": "fbbc2c3e289c4acbaa00f799c715c481",
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:49:33+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100000000",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "DEPT OF DEFENSE",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000201",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "DEPT OF THE ARMY",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100000117",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 3,
+            "name": "AMC",
+            "type": "MAJOR COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "100007305",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 4,
+            "name": "ACC",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "100007306",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 5,
+            "name": "MISSION & INSTALLATION CONTRACTING COMMAND",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "100007309",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 6,
+            "name": "419TH CSB",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "500036690",
+            "address": {
+              "zip": "13602-5220",
+              "country": "USA",
+              "city": "FORT DRUM",
+              "streetAddress": "KO DIRECTORATE OF CONTRACTIN",
+              "streetAddress2": "45 WEST STREET",
+              "state": "NY"
+            },
+            "level": 7,
+            "name": "W6QM MICC-FT DRUM",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "1eb7e0fa4bdd4695ae143eeae78c725e",
+        "responseDateActual": "2022-06-06T11:00:00-04:00",
+        "modifications": { "count": 5 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:47:03+00:00",
+        "isActive": true,
+        "title": "Intent to Sole Source Philips ActiWatches",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:47:03.219+00:00",
+            "content": "<p>The Centers for Disease Control and Prevention intends to award a sole source firm fixed price purchase order to Philips Respironics for the equipment purchase for fifteen (15) PHILIPS Actiwatch Spectrum Plus sleep actigraphy watches and one (1) A"
+          }
+        ],
+        "solicitationNumber": "HCCQ-2022-EJH-66494",
+        "responseDate": "2022-06-13T15:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:47:03+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100004222",
+            "address": {
+              "zip": "20201",
+              "country": "US",
+              "city": "Washington",
+              "streetAddress": "Hubert H. Humphrey Building 200 Independence Avenue, SW ",
+              "streetAddress2": null,
+              "state": "DC"
+            },
+            "level": 1,
+            "name": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "100007448",
+            "address": {
+              "zip": "30333",
+              "country": "US",
+              "city": "Atlanta",
+              "streetAddress": "1600 Clifton Road",
+              "streetAddress2": null,
+              "state": "GA"
+            },
+            "level": 2,
+            "name": "CENTERS FOR DISEASE CONTROL AND PREVENTION",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100188028",
+            "address": {
+              "zip": "30333",
+              "country": "USA",
+              "city": "ATLANTA",
+              "streetAddress": "1600 CLIFTON ROAD",
+              "streetAddress2": null,
+              "state": "GA"
+            },
+            "level": 3,
+            "name": "CDC OFFICE OF ACQUISITION SERVICES",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "e59a2a6321374eb4b8fc715b7d020e58",
+        "responseDateActual": "2022-06-13T11:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:47:03+00:00",
+        "isActive": true,
+        "title": "Custodial Services, Danville, PA (PA176)",
+        "type": { "code": "r", "value": "Sources Sought" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:47:03.946+00:00",
+            "content": "<p><strong>6-3-2022: Posted Sources Sought Notice to Attachments/Links.&nbsp;</strong></p>\n"
+          }
+        ],
+        "solicitationNumber": "W15QKN-22-Q-5098",
+        "responseDate": "2022-06-09T14:00:00+00:00",
+        "parentNoticeId": "8c233858214e422c94dda2f0289519df",
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:47:03+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100000000",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "DEPT OF DEFENSE",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000201",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "DEPT OF THE ARMY",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100000117",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 3,
+            "name": "AMC",
+            "type": "MAJOR COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "100007305",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 4,
+            "name": "ACC",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "500038569",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 5,
+            "name": "ACC-CTRS",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "500045604",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 6,
+            "name": "ACC-NJ",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "500045967",
+            "address": {
+              "zip": "07806-5000",
+              "country": "USA",
+              "city": "PICATINNY ARSENAL",
+              "streetAddress": "KO CONTRACTING OFFICE",
+              "streetAddress2": "BUILDING 10 PHIPPS RD",
+              "state": "NJ"
+            },
+            "level": 7,
+            "name": "W6QK ACC-PICA",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "06766b1e69804778b44bb0347777ee50",
+        "responseDateActual": "2022-06-09T10:00:00-04:00",
+        "modifications": { "count": 1 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 1,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:43:35+00:00",
+        "isActive": true,
+        "title": "J041--WPB VAMC Install DP Sensors in Chilled Water Loop  New Contract",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:43:35.185+00:00",
+            "content": "RFQ #: 36C24822Q1109\nPROJECT TITLE: Install DP Sensors in Chilled Water Loop\n WEST PALM BEACH VA MEDICAL CENTER (WPBVAMC)\n\nPage 1 of 1\nPage 1 of \n\nPage 3 of 26\n\nPage 1 of 1\nPage 1 of \n\n\nThis is a combined synopsis/solicitation for commercial services"
+          }
+        ],
+        "solicitationNumber": "36C24822Q1109",
+        "responseDate": "2022-06-17T16:00:00+00:00",
+        "parentNoticeId": "9902e6aecfe94d4cb7d0ef1000d91af4",
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:43:35+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100167097",
+            "address": {
+              "zip": "33637",
+              "country": "USA",
+              "city": "TAMPA",
+              "streetAddress": "8875 HIDDEN RIVER PARKWAY",
+              "streetAddress2": null,
+              "state": "FL"
+            },
+            "level": 3,
+            "name": "248-NETWORK CONTRACT OFFICE 8 (36C248)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "7cbf3515ac994c85a7fa075fdbe25b51",
+        "responseDateActual": "2022-06-17T12:00:00-04:00",
+        "modifications": { "count": 1 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 2,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:40:14+00:00",
+        "isActive": true,
+        "title": "MH65 Spare Parts",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:40:14.474+00:00",
+            "content": "<p>***Amendment 1: Date offer is due has been extended to 8/11/2022.***</p>\n\n<p>This is a combined synopsis/solicitation for commercial items prepared in accordance with the format in FAR subpart 12.6 and part 13.5, as supplemented with additional in"
+          }
+        ],
+        "solicitationNumber": "70Z03822QB2000011",
+        "responseDate": "2022-08-11T19:00:00+00:00",
+        "parentNoticeId": "7c918bb997f74812bcdeb371266b46d0",
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:40:14+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100011942",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "HOMELAND SECURITY, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "100012855",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "U.S. COAST GUARD",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100178062",
+            "address": {
+              "zip": "27909",
+              "country": "USA",
+              "city": "ELIZABETH CITY",
+              "streetAddress": "1664 WEEKSVILLE RD",
+              "streetAddress2": null,
+              "state": "NC"
+            },
+            "level": 3,
+            "name": "AVIATION LOGISTICS CENTER (ALS)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "f027829090f64533a1fd215084fde79b",
+        "responseDateActual": "2022-08-11T15:00:00-04:00",
+        "modifications": { "count": 1 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:38:10+00:00",
+        "isActive": true,
+        "title": "R499--Small Business Event | VHA CMOP and Meds by Mail Virtual  Business Opportunity Session | Cisco Webex June 15",
+        "type": { "code": "r", "value": "Sources Sought" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:38:10.862+00:00",
+            "content": "\n1. DATE, TIME, AND PLACE:  The event takes place, Tuesday June 15, 2022 from 1:30 P.M.   2:30 P.M. EST. Â Â  \n2.  AGENDA:  Participants will be provided the outline of a business opportunity and related details.\n3. REGISTRATION:  Visit https://www.v"
+          }
+        ],
+        "solicitationNumber": "36U10122Q0038",
+        "responseDate": "2022-06-14T16:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:38:10+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "500021292",
+            "address": {
+              "zip": "20548",
+              "country": "USA",
+              "city": "WASHINGTON",
+              "streetAddress": "810 VERMONT AV NE (00SB)",
+              "streetAddress2": null,
+              "state": "DC"
+            },
+            "level": 3,
+            "name": "OFFICE OF SMALL & DISADVANTAGED BUSINESS UTILIZATION (OSDBU) (36U101)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "67f72d9135404936ab75b8e13f8ae5fd",
+        "responseDateActual": "2022-06-14T12:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 2,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:37:57+00:00",
+        "isActive": true,
+        "title": "Automated Flow Cytometry Assay Preparation System",
+        "type": { "code": "r", "value": "Sources Sought" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:37:57.547+00:00",
+            "content": "<p>Contracting Office Address<br />\nNational Institute of Standards and Technology (NIST),<br />\nAcquisition Management Division,<br />\n100 Bureau Drive, Mail Stop 1640,<br />\nGaithersburg, MD, 20899-1640</p>\n\n<p>Sources Sought Notice</p>\n\n<p>Title: "
+          }
+        ],
+        "solicitationNumber": "NIST-MML-22-SS12",
+        "responseDate": "2022-07-03T15:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:37:57+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100035122",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "COMMERCE, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "100109529",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100182905",
+            "address": {
+              "zip": "20899",
+              "country": "USA",
+              "city": "GAITHERSBURG",
+              "streetAddress": "ACQUISITION MANAGEMENT DIVISION",
+              "streetAddress2": "100 BUREAU DR.",
+              "state": "MD"
+            },
+            "level": 3,
+            "name": "DEPT OF COMMERCE NIST",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "775f4854e1b8452f93102110b3783be8",
+        "responseDateActual": "2022-07-03T11:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:36:12+00:00",
+        "isActive": true,
+        "title": "J045--GROUNDS/WASTE | Replace Sewer Line",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:36:12.448+00:00",
+            "content": "Amendment 0001 is issued to clarify the set-aside status as unrestricted.\n"
+          }
+        ],
+        "solicitationNumber": "36C24422Q0785",
+        "responseDate": "2022-06-17T14:00:00+00:00",
+        "parentNoticeId": "5f7747a4fb524d47ac0ac8691c972234",
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:36:12+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100163848",
+            "address": {
+              "zip": "15215",
+              "country": "USA",
+              "city": "PITTSBURGH",
+              "streetAddress": "1010 DELAFIELD ROAD",
+              "streetAddress2": null,
+              "state": "PA"
+            },
+            "level": 3,
+            "name": "244-NETWORK CONTRACT OFFICE 4 (36C244)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "58d682e8f5a14f76909dacc6329aa32f",
+        "responseDateActual": "2022-06-17T10:00:00-04:00",
+        "modifications": { "count": 2 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 1,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:36:04+00:00",
+        "isActive": true,
+        "title": "J065--Storm and Sanitary Sewer Maintenance (VA-22-00068135)",
+        "type": { "code": "r", "value": "Sources Sought" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:36:04.759+00:00",
+            "content": "Preventive maintenance contact for monthly service and perform preventive maintenance one grease interceptor located in GE 261 for Canteen Service. Semiannual:  Scupper/Sanitary Drain outside CNRC Garage All Sanitary Sewers that connect to Main Kitch"
+          }
+        ],
+        "solicitationNumber": "36C24522Q0639",
+        "responseDate": "2022-06-14T12:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:36:04+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100173468",
+            "address": {
+              "zip": "21090",
+              "country": "USA",
+              "city": "LINTHICUM",
+              "streetAddress": "1701 DIRECTORS BLVD",
+              "streetAddress2": null,
+              "state": "MD"
+            },
+            "level": 3,
+            "name": "245-NETWORK CONTRACT OFFICE 5 (36C245)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "15232e5d7f9d43ccbd7f951e587b87d0",
+        "responseDateActual": "2022-06-14T08:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 2,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:32:59+00:00",
+        "isActive": true,
+        "title": "Life Technology Renewal  for AB Asurance Instrument",
+        "type": { "code": "p", "value": "Presolicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:32:59.753+00:00",
+            "content": "<p>Solicitation #</p>\n\n<p>HHSNIHOPCSBSS-22-009222</p>\n\n<p>Date Posted&nbsp;&nbsp;&nbsp; &nbsp;6-3-2022</p>\n\n<p>Date Closed&nbsp;&nbsp;&nbsp;&nbsp; 6-10-2022</p>\n\n<p>This is a notice of intent, not a request for a quotation. A solicitation document wi"
+          }
+        ],
+        "solicitationNumber": "22-009222",
+        "responseDate": "2022-06-10T16:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:32:59+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100004222",
+            "address": {
+              "zip": "20201",
+              "country": "US",
+              "city": "Washington",
+              "streetAddress": "Hubert H. Humphrey Building 200 Independence Avenue, SW ",
+              "streetAddress2": null,
+              "state": "DC"
+            },
+            "level": 1,
+            "name": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "100019747",
+            "address": {
+              "zip": "20892",
+              "country": "US",
+              "city": "Bethesda",
+              "streetAddress": "3100 Center Drive Room 1B59",
+              "streetAddress2": null,
+              "state": "MD"
+            },
+            "level": 2,
+            "name": "NATIONAL INSTITUTES OF HEALTH",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100189036",
+            "address": {
+              "zip": "20892",
+              "country": "USA",
+              "city": "BETHESDA",
+              "streetAddress": "6707 DEMOCRACY BLVD, SUITE 106",
+              "streetAddress2": null,
+              "state": "MD"
+            },
+            "level": 3,
+            "name": "NATIONAL INSTITUTES OF HEALTH - CC",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "2a4b5ed622ce48b7be18b8ffef329ff8",
+        "responseDateActual": "2022-06-10T12:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 4,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:32:11+00:00",
+        "isActive": true,
+        "title": "7A--Petra & Kingdom Software Maintenance for DEMD",
+        "type": { "code": "a", "value": "Award Notice" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:32:11.31+00:00",
+            "content": "Petra & Kingdom Software Maintenance for DEMD"
+          }
+        ],
+        "solicitationNumber": "140A1622P0062",
+        "responseDate": null,
+        "parentNoticeId": null,
+        "award": {
+          "awardee": { "ueiSAM": "EVTHCCHFBCP5", "name": "IHS GLOBAL LIMITED" }
+        },
+        "responseTimeZone": null,
+        "modifiedDate": "2022-06-03T12:32:11+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100010393",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "INTERIOR, DEPARTMENT OF THE",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000500",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "BUREAU OF INDIAN AFFAIRS",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "500035573",
+            "address": {
+              "zip": "20191",
+              "country": "USA",
+              "city": "RESTON",
+              "streetAddress": "12220 SUNRISE VALLEY DRIVE",
+              "streetAddress2": null,
+              "state": "VA"
+            },
+            "level": 3,
+            "name": "CENTRAL OFFICE",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "58abe3e3a4004984b6d8d86c45cb6a93",
+        "responseDateActual": null,
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:19:54+00:00",
+        "isActive": true,
+        "title": "6530--Interacoustics Eclipse EP25 Auditory Evoked Systems",
+        "type": { "code": "a", "value": "Award Notice" },
+        "descriptions": [
+          { "lastModifiedDate": "2022-06-03T12:19:54.698+00:00", "content": "" }
+        ],
+        "solicitationNumber": "36C24922Q0353",
+        "responseDate": null,
+        "parentNoticeId": null,
+        "award": {
+          "awardee": {
+            "ueiSAM": "TLTXKMLQEYU9",
+            "name": "VETERANS HEALTHCARE SUPPLY SOLUTIONS, INC."
+          }
+        },
+        "responseTimeZone": null,
+        "modifiedDate": "2022-06-03T12:19:54+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100163849",
+            "address": {
+              "zip": "37129",
+              "country": "USA",
+              "city": "MURFREESBORO",
+              "streetAddress": "VISN 9 CONSOLIDATED ACQUISITION",
+              "streetAddress2": "3400 LEBANON ROAD",
+              "state": "TN"
+            },
+            "level": 3,
+            "name": "249-NETWORK CONTRACT OFFICE 9 (36C249)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "6691cbb772e0428f8f1b66cd8db96a71",
+        "responseDateActual": null,
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:11:00+00:00",
+        "isActive": true,
+        "title": "Marine Fender_Souda Bay",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:11:00.851+00:00",
+            "content": "<p>The Naval Supply Systems Command Fleet Logistics Center (NAVSUP FLC) has a requirement purchase for The U.S. NAVAL SUPPORT ACTIVITY in Souda Bay, Greece. This is a request for quote (RFQ) utilizing the procedures of FAR Part &ndash; 12 Acquisition"
+          }
+        ],
+        "solicitationNumber": "N68171_Fender",
+        "responseDate": "2022-06-10T07:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "Europe/Athens",
+        "modifiedDate": "2022-06-03T12:11:00+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100000000",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "DEPT OF DEFENSE",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000188",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "DEPT OF THE NAVY",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100000064",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 3,
+            "name": "NAVSUP",
+            "type": "MAJOR COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "100000104",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 4,
+            "name": "NAVSUP GLOBAL LOGISTICS SUPPORT",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "100153272",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 5,
+            "name": "NAVSUP FLC SIGONELLA",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "100232877",
+            "address": {
+              "zip": "09622-0050",
+              "country": "USA",
+              "city": "FPO",
+              "streetAddress": "NAVAL REGIONAL CONTRACTING CEN DET",
+              "streetAddress2": "PSC 817  BOX 50",
+              "state": "AE"
+            },
+            "level": 6,
+            "name": "NAVSUP FLC SIGONELLA NAPLES OFFICE",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "5a6136e4ca9f4229bd705743185272c4",
+        "responseDateActual": "2022-06-10T10:00:00+03:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:10:53+00:00",
+        "isActive": true,
+        "title": "Long Term Evaluation Outcomes - Employment Data",
+        "type": { "code": "s", "value": "Special Notice" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:10:53.304+00:00",
+            "content": "<p>Please see attached notice of intent to award sole source.</p>\n"
+          }
+        ],
+        "solicitationNumber": "75ACF122SS0011",
+        "responseDate": "2022-06-18T19:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:10:53+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100004222",
+            "address": {
+              "zip": "20201",
+              "country": "US",
+              "city": "Washington",
+              "streetAddress": "Hubert H. Humphrey Building 200 Independence Avenue, SW ",
+              "streetAddress2": null,
+              "state": "DC"
+            },
+            "level": 1,
+            "name": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000297",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "ADMINISTRATION FOR CHILDREN AND FAMILIES",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "500169879",
+            "address": {
+              "zip": "20201",
+              "country": "USA",
+              "city": "Washington",
+              "streetAddress": "330 C Street, SW",
+              "streetAddress2": null,
+              "state": "DC"
+            },
+            "level": 3,
+            "name": "ACF OFFICE OF GOVERNMENT CONTRACTING SERVICES",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "7a88c40d9a6a4d93ace874d37c6e5371",
+        "responseDateActual": "2022-06-18T15:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 4,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:09:35+00:00",
+        "isActive": true,
+        "title": "N054--Remove and replacement of east wing 2nd floor BLDG 46 75kw  transformer. Transformer is no longer functioning properly  and supplies power to VSC, VRE, and several active veteran  service organizations. These specific offices are vital to",
+        "type": { "code": "p", "value": "Presolicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:09:35.017+00:00",
+            "content": "Page 3 of 3\nGENERAL: This is a pre-solicitation notice only and does not constitute a solicitation; accordingly, no response is due at this time, nor will any questions of a technical or contractual nature be answered. Those questions will only be an"
+          }
+        ],
+        "solicitationNumber": "36C10E22Q0111",
+        "responseDate": "2022-07-15T20:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:09:35+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100170296",
+            "address": {
+              "zip": "20006",
+              "country": "USA",
+              "city": "WASHINGTON",
+              "streetAddress": "1800 G STREET NW",
+              "streetAddress2": null,
+              "state": "DC"
+            },
+            "level": 3,
+            "name": "VBA FIELD CONTRACTING (36C10E)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "f555d8986ba54c4cb9f9faf6b0f7ef4c",
+        "responseDateActual": "2022-07-15T16:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:09:33+00:00",
+        "isActive": true,
+        "title": "S222--Hazardous Waste Removal  Chalmers P. Wylie VA-ACC",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:09:33.803+00:00",
+            "content": "The purpose of this solicitation amendment is to update the Statement of Work including adding language regarding estimated quantities (please see highlighted section of SOW) and extending the response date for quotes. \n\nVendors may provide an update"
+          }
+        ],
+        "solicitationNumber": "36C25022Q0464",
+        "responseDate": "2022-06-10T17:30:00+00:00",
+        "parentNoticeId": "46b1a8080797459da7165da805ebad76",
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:09:33+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100167099",
+            "address": {
+              "zip": "45428",
+              "country": "USA",
+              "city": "DAYTON",
+              "streetAddress": "VISN 10 CONSOLIDATED CONTRACTING",
+              "streetAddress2": "4100 WEST 3RD STREET",
+              "state": "OH"
+            },
+            "level": 3,
+            "name": "250-NETWORK CONTRACT OFFICE 10 (36C250)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "b34c1f2568a54faa97f70d5c15081863",
+        "responseDateActual": "2022-06-10T13:30:00-04:00",
+        "modifications": { "count": 4 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 2,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T12:03:50+00:00",
+        "isActive": true,
+        "title": "Repair of Unit, Flap Power Ctr",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T12:03:50.028+00:00",
+            "content": "<p>This is a combined synopsis/solicitation for commercial items prepared in accordance with the format in FAR subpart 12.6 and part 13, as supplemented with additional information included in this notice.&nbsp; This announcement constitutes the only"
+          }
+        ],
+        "solicitationNumber": "70Z03822QW0000075",
+        "responseDate": "2022-06-10T21:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T12:03:50+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100011942",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "HOMELAND SECURITY, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "100012855",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "U.S. COAST GUARD",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100178062",
+            "address": {
+              "zip": "27909",
+              "country": "USA",
+              "city": "ELIZABETH CITY",
+              "streetAddress": "1664 WEEKSVILLE RD",
+              "streetAddress2": null,
+              "state": "NC"
+            },
+            "level": 3,
+            "name": "AVIATION LOGISTICS CENTER (ALS)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "c378347124cb4e43a2808c6cacb638c0",
+        "responseDateActual": "2022-06-10T17:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 2,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T11:58:12+00:00",
+        "isActive": true,
+        "title": "Olympus Microscopic Digital Scanners Equipments",
+        "type": { "code": "p", "value": "Presolicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T11:58:12.26+00:00",
+            "content": "<p>Solicitation #</p>\n\n<p>HHSNIHOPCSBSS-22-009894</p>\n\n<p>Date &nbsp;&nbsp;Posted &nbsp;&nbsp;&nbsp;6-3-2022</p>\n\n<p>Date&nbsp;&nbsp; Closed&nbsp;&nbsp;&nbsp; 6-10-2022</p>\n\n<p>This is a notice of intent, not a request for a quotation. A solicitation"
+          }
+        ],
+        "solicitationNumber": "22-009894",
+        "responseDate": "2022-06-10T14:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T11:58:12+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100004222",
+            "address": {
+              "zip": "20201",
+              "country": "US",
+              "city": "Washington",
+              "streetAddress": "Hubert H. Humphrey Building 200 Independence Avenue, SW ",
+              "streetAddress2": null,
+              "state": "DC"
+            },
+            "level": 1,
+            "name": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "100019747",
+            "address": {
+              "zip": "20892",
+              "country": "US",
+              "city": "Bethesda",
+              "streetAddress": "3100 Center Drive Room 1B59",
+              "streetAddress2": null,
+              "state": "MD"
+            },
+            "level": 2,
+            "name": "NATIONAL INSTITUTES OF HEALTH",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100189036",
+            "address": {
+              "zip": "20892",
+              "country": "USA",
+              "city": "BETHESDA",
+              "streetAddress": "6707 DEMOCRACY BLVD, SUITE 106",
+              "streetAddress2": null,
+              "state": "MD"
+            },
+            "level": 3,
+            "name": "NATIONAL INSTITUTES OF HEALTH - CC",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "e2bc287bef2e4cd6a43116e5f5f97656",
+        "responseDateActual": "2022-06-10T10:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T11:43:01+00:00",
+        "isActive": true,
+        "title": "SWNF 3RD FORK ROCK CREEK BRIDGE TIMBER PLACEMENT",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T11:43:01.946+00:00",
+            "content": "<p>The Sawtooth National Forest is soliciting quotes for all required equipment, labor and<br />\nmaterials necessary for the aerial transport and placement of eight (8) Government furnished,<br />\ntreated timber longitudinal slab members from the sta"
+          }
+        ],
+        "solicitationNumber": "1240LR22Q0104",
+        "responseDate": "2022-07-04T20:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/Denver",
+        "modifiedDate": "2022-06-03T11:43:01+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006809",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "AGRICULTURE, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "100013241",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "FOREST SERVICE",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100174853",
+            "address": {
+              "zip": "83338",
+              "country": "USA",
+              "city": "JEROME",
+              "streetAddress": "SAWTOOTH SUPERVISORS OFFICE",
+              "streetAddress2": "370 AMERICAN AVE",
+              "state": "ID"
+            },
+            "level": 3,
+            "name": "Sawtooth National Forest",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "35e381f72d454492842c63775c896bab",
+        "responseDateActual": "2022-07-04T14:00:00-06:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 1,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T11:42:22+00:00",
+        "isActive": true,
+        "title": "J059--FY22: Motorola Radio Maintenance Agreement  New Contract",
+        "type": { "code": "k", "value": "Combined Synopsis/Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T11:42:22.584+00:00",
+            "content": "\nRFQ #: 36C24822Q0982\nPROJECT TITLE: Motorola Radio Maintenance Agreement.\n WEST PALM BEACH VA MEDICAL CENTER (WPBVAMC)\n\nPage 1 of 1\nPage 1 of \n\nPage 3 of 26\n\n\nPage 1 of 1\nPage 1 of \n\n\nThis is a combined synopsis/solicitation for commercial services/"
+          }
+        ],
+        "solicitationNumber": "36C24822Q0982",
+        "responseDate": "2022-06-17T16:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T11:42:22+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100167097",
+            "address": {
+              "zip": "33637",
+              "country": "USA",
+              "city": "TAMPA",
+              "streetAddress": "8875 HIDDEN RIVER PARKWAY",
+              "streetAddress2": null,
+              "state": "FL"
+            },
+            "level": 3,
+            "name": "248-NETWORK CONTRACT OFFICE 8 (36C248)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "8dd62298323a4e7493b90b4d98b54465",
+        "responseDateActual": "2022-06-17T12:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 39,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T11:39:01+00:00",
+        "isActive": true,
+        "title": "150kW Diesel Generator Rental",
+        "type": { "code": "o", "value": "Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T11:39:01.795+00:00",
+            "content": "<p>The Norfolk Naval Shipyard (NNSY) Service Contracting Department, Portsmouth, VA, VA 23709-5000, intends to award a firm fixed price contract for rental of a 150kW Standby Power Diesel Generator with Auto Transfer Switch in support of the USS Sam "
+          }
+        ],
+        "solicitationNumber": "N4215822QS052",
+        "responseDate": "2022-06-06T16:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T11:39:01+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100000000",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "DEPT OF DEFENSE",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000188",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "DEPT OF THE NAVY",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100005213",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 3,
+            "name": "NAVSEA",
+            "type": "MAJOR COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "100053219",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 4,
+            "name": "NAVSEA SHIPYARD",
+            "type": "SUB COMMAND",
+            "status": "active"
+          },
+          {
+            "organizationId": "500021471",
+            "address": {
+              "zip": "23709-5000",
+              "country": "USA",
+              "city": "PORTSMOUTH",
+              "streetAddress": "PORTSMOUTH            VA 23709-5000",
+              "streetAddress2": null,
+              "state": "VA"
+            },
+            "level": 5,
+            "name": "NORFOLK NAVAL SHIPYARD GF",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "b2c436616eac445282df06cfde5dd89e",
+        "responseDateActual": "2022-06-06T12:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 52,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T11:30:34+00:00",
+        "isActive": true,
+        "title": "X1AZ--36C249-22-AP-0044 - 614-22-4-5820-0001 - Millington CBOC  Lease  (VA-20-00099918)",
+        "type": { "code": "o", "value": "Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T11:30:34.573+00:00",
+            "content": "<p>The VA Medical Center Memphis is seeking to lease 33,901 rentable square feet (25,112 (ANSI/BOMA) of clinic space in Millington Tennessee for use by Tenant for personnel, furnishings, and equipment. The lease should be an existing building space. "
+          }
+        ],
+        "solicitationNumber": "36C24922R0006",
+        "responseDate": "2022-06-08T20:00:00+00:00",
+        "parentNoticeId": "ab4ae7d0098d43bba12977b015b597ec",
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/Chicago",
+        "modifiedDate": "2022-06-03T11:30:34+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100163849",
+            "address": {
+              "zip": "37129",
+              "country": "USA",
+              "city": "MURFREESBORO",
+              "streetAddress": "VISN 9 CONSOLIDATED ACQUISITION",
+              "streetAddress2": "3400 LEBANON ROAD",
+              "state": "TN"
+            },
+            "level": 3,
+            "name": "249-NETWORK CONTRACT OFFICE 9 (36C249)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "1b19cb48964e43ce8dbe3a5c4d6a2675",
+        "responseDateActual": "2022-06-08T15:00:00-05:00",
+        "modifications": { "count": 2 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 3,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T11:27:58+00:00",
+        "isActive": true,
+        "title": "RFI -TSL-TSSPII -TRACE STANDARDS AND SIMULANT PRODUCTION",
+        "type": { "code": "r", "value": "Sources Sought" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T11:27:58.859+00:00",
+            "content": "<p>This notice is issued by the Department of Homeland Security (DHS); Science and Technology (S&amp;T) Directorate; Transportation Security Laboratory (TSL) to obtain information from potential sources regarding their capabilities to establish a Tec"
+          }
+        ],
+        "solicitationNumber": "TSL-TSSPII",
+        "responseDate": "2022-06-17T14:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T11:27:58+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100011942",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "HOMELAND SECURITY, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "100013095",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "OFFICE OF PROCUREMENT OPERATIONS",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100170417",
+            "address": {
+              "zip": "20528",
+              "country": "USA",
+              "city": "WASHINGTON",
+              "streetAddress": "245 MURRAY LANE SW, MAILSTOP 0115",
+              "streetAddress2": null,
+              "state": "DC"
+            },
+            "level": 3,
+            "name": "SCI  TECH ACQ DIV",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "9db3c31ef4a049409fd92de145b1d262",
+        "responseDateActual": "2022-06-17T10:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 4,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T11:24:00+00:00",
+        "isActive": true,
+        "title": "S299--Lead PPE (X-ray) Cleaning and Testing Service  Ann Arbor VA Medical Center",
+        "type": { "code": "r", "value": "Sources Sought" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T11:24:00.752+00:00",
+            "content": "\n\n\n\n\n\nDepartment of Veterans Affairs Network Contracting Office 10, 24 Frank Lloyd Wright Drive, Ann Arbor, MI 48105, intends to solicit offers for lead personal protection equipment (PPE) (X-Ray Garments) cleaning, inspection, and testing service at"
+          }
+        ],
+        "solicitationNumber": "36C25022Q0705",
+        "responseDate": "2022-06-17T16:00:00+00:00",
+        "parentNoticeId": null,
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T11:24:00+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100167099",
+            "address": {
+              "zip": "45428",
+              "country": "USA",
+              "city": "DAYTON",
+              "streetAddress": "VISN 10 CONSOLIDATED CONTRACTING",
+              "streetAddress2": "4100 WEST 3RD STREET",
+              "state": "OH"
+            },
+            "level": 3,
+            "name": "250-NETWORK CONTRACT OFFICE 10 (36C250)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "3a5a860a79534b42b5c4e0b7f189e09a",
+        "responseDateActual": "2022-06-17T12:00:00-04:00",
+        "modifications": { "count": 0 }
+      },
+      {
+        "isCanceled": false,
+        "_rScore": 4,
+        "_type": "opportunity",
+        "publishDate": "2022-06-03T11:14:01+00:00",
+        "isActive": true,
+        "title": "S201--Brooklyn Vet Center Janitorial",
+        "type": { "code": "o", "value": "Solicitation" },
+        "descriptions": [
+          {
+            "lastModifiedDate": "2022-06-03T11:14:01.735+00:00",
+            "content": "<p>Janitorial Services for the Brooklyn Vet Center</p>\n"
+          }
+        ],
+        "solicitationNumber": "36C24222Q0743",
+        "responseDate": "2022-06-13T15:00:00+00:00",
+        "parentNoticeId": "051bcb749c994f31b65d1f60fe36335f",
+        "award": { "awardee": { "ueiSAM": null, "name": null } },
+        "responseTimeZone": "America/New_York",
+        "modifiedDate": "2022-06-03T11:14:01+00:00",
+        "organizationHierarchy": [
+          {
+            "organizationId": "100006568",
+            "address": {
+              "zip": null,
+              "country": "US",
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 1,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "DEPARTMENT",
+            "status": "active"
+          },
+          {
+            "organizationId": "300000214",
+            "address": {
+              "zip": null,
+              "country": null,
+              "city": null,
+              "streetAddress": null,
+              "streetAddress2": null,
+              "state": null
+            },
+            "level": 2,
+            "name": "VETERANS AFFAIRS, DEPARTMENT OF",
+            "type": "AGENCY",
+            "status": "active"
+          },
+          {
+            "organizationId": "100186522",
+            "address": {
+              "zip": "12208",
+              "country": "USA",
+              "city": "ALBANY",
+              "streetAddress": "113 HOLLAND AVE",
+              "streetAddress2": null,
+              "state": "NY"
+            },
+            "level": 3,
+            "name": "242-NETWORK CONTRACT OFFICE 02 (36C242)",
+            "type": "OFFICE",
+            "status": "active"
+          }
+        ],
+        "_id": "c0bf882719e84f5882fef106090e5b21",
+        "responseDateActual": "2022-06-13T11:00:00-04:00",
+        "modifications": { "count": 1 }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://52samdotgovsearch.prod.apps-internal.prod-iae.bsp.gsa.gov/sgs/v1/search?index=opp&index=opp&q=%22lease%20office%22%20rental%20lease%20warehouse%20retail&q=%22lease%20office%22%20rental%20lease%20warehouse%20retail&page=0&page=0&size=25&size=25&sort=-modifiedDate&sort=-modifiedDate&raw=false&mode=search&mode=search&random=1654260701224&responseType=json&is_active=true&qMode=ANY&qMode=ANY{&exactMatch}",
+      "templated": true
+    }
+  },
+  "page": {
+    "size": 25,
+    "totalElements": 31265,
+    "totalPages": 1251,
+    "number": 0,
+    "maxAllowedRecords": 10000
+  }
+}
