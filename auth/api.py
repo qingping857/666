@@ -29,7 +29,7 @@ def api_login():
         # 获取请求数据
         data = request.get_json()
         if not data or 'username' not in data or 'password' not in data:
-            return jsonify({'success': False, 'message': '缺少用户名或密码'}), 400
+            return jsonify({'success': False, 'message': 'Missing username or password'}), 400
 
         username = data['username']
         password = data['password']
@@ -45,7 +45,7 @@ def api_login():
 
     except Exception as e:
         logger.error(f"登录异常: {str(e)}")
-        return jsonify({'success': False, 'message': f'登录失败: {str(e)}'}), 500
+        return jsonify({'success': False, 'message': f'Login failed: {str(e)}'}), 500
 
 
 @app.route('/api/users', methods=['GET'])
@@ -60,7 +60,7 @@ def api_list_users():
         return jsonify({'success': True, 'users': users})
     except Exception as e:
         logger.error(f"获取用户列表失败: {str(e)}")
-        return jsonify({'success': False, 'message': f'获取用户列表失败: {str(e)}'}), 500
+        return jsonify({'success': False, 'message': f'Failed to get the user list: {str(e)}'}), 500
 
 
 @app.route('/api/users', methods=['POST'])
@@ -70,7 +70,7 @@ def api_create_user():
     try:
         data = request.get_json()
         if not data or 'username' not in data or 'password' not in data or 'role' not in data:
-            return jsonify({'success': False, 'message': '缺少必要参数'}), 400
+            return jsonify({'success': False, 'message': 'Please enter completely'}), 400
 
         # 导入创建用户函数
         from auth import create_user
@@ -102,7 +102,7 @@ def api_list_tasks():
         return jsonify({'success': True, 'tasks': tasks})
     except Exception as e:
         logger.error(f"获取任务列表失败: {str(e)}")
-        return jsonify({'success': False, 'message': f'获取任务列表失败: {str(e)}'}), 500
+        return jsonify({'success': False, 'message': f'Failed to get task list: {str(e)}'}), 500
 
 
 @app.route('/api/tasks', methods=['POST'])
@@ -112,7 +112,7 @@ def api_create_task():
     try:
         data = request.get_json()
         if not data or 'task_type' not in data or 'parameters' not in data:
-            return jsonify({'success': False, 'message': '缺少必要参数'}), 400
+            return jsonify({'success': False, 'message': 'Please enter completely'}), 400
 
         # 创建爬虫任务
         task_id = Database.execute_insert(
@@ -131,12 +131,12 @@ def api_create_task():
 
         return jsonify({
             'success': True,
-            'message': '任务创建成功',
+            'message': 'The task is created',
             'task_id': task_id
         })
     except Exception as e:
         logger.error(f"创建任务失败: {str(e)}")
-        return jsonify({'success': False, 'message': f'创建任务失败: {str(e)}'}), 500
+        return jsonify({'success': False, 'message': f'The task failed to be created: {str(e)}'}), 500
 
 
 @app.route('/api/profile', methods=['GET'])
@@ -152,7 +152,7 @@ def api_profile():
         })
     except Exception as e:
         logger.error(f"获取用户资料失败: {str(e)}")
-        return jsonify({'success': False, 'message': f'获取用户资料失败: {str(e)}'}), 500
+        return jsonify({'success': False, 'message': f'Failed to get user profile: {str(e)}'}), 500
 
 
 @app.route('/api/health', methods=['GET'])
@@ -175,17 +175,17 @@ def api_list_opportunities():
         return jsonify({'success': True, 'opportunities': opportunities})
     except Exception as e:
         logger.error(f"获取SAM机会数据失败: {str(e)}")
-        return jsonify({'success': False, 'message': f'获取SAM机会数据失败: {str(e)}'}), 500
+        return jsonify({'success': False, 'message': f'Failed to get SAM opportunity data: {str(e)}'}), 500
 
 # 全局错误处理
 @app.errorhandler(404)
 def not_found_error(error):
-    return jsonify({'success': False, 'message': '找不到请求的资源'}), 404
+    return jsonify({'success': False, 'message': 'The requested resource could not be found'}), 404
 
 
 @app.errorhandler(500)
 def internal_error(error):
-    return jsonify({'success': False, 'message': '服务器内部错误'}), 500
+    return jsonify({'success': False, 'message': 'Server internal error'}), 500
 
 
 if __name__ == '__main__':

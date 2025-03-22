@@ -1,6 +1,7 @@
 # run_crawler.py
 import sys
 import subprocess
+import time
 
 # 获取命令行参数
 if len(sys.argv) < 5:
@@ -23,4 +24,18 @@ cmd = [
 
 # 执行命令
 print(f"正在启动爬虫：{' '.join(cmd)}")
-subprocess.call(cmd)
+start_time = time.time()
+
+process = subprocess.Popen(cmd)
+print(f"爬虫进程已启动，PID: {process.pid}")
+
+try:
+    # 等待爬虫完成
+    process.wait()
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"爬虫执行完成，耗时: {duration:.2f}秒，退出码: {process.returncode}")
+except KeyboardInterrupt:
+    print("收到中断信号，正在终止爬虫...")
+    process.terminate()
+    print("爬虫已终止")

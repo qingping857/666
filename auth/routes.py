@@ -11,7 +11,6 @@ logger = logging.getLogger(__name__)
 api_bp = Blueprint('api', __name__, url_prefix='/api')
 auth_bp = Blueprint('auth', __name__, url_prefix='/api')
 
-
 # ====== 认证路由 ======
 
 @auth_bp.route('/login', methods=['POST'])
@@ -513,3 +512,254 @@ def api_health_check():
         'status': 'healthy',
         'version': '1.0.0'
     })
+
+
+@api_bp.route('/opportunities', methods=['GET'])
+@requires_auth
+@requires_permission('read')
+def list_opportunities():
+    """获取所有机会数据"""
+    try:
+        # 可以添加分页和筛选参数
+        page = request.args.get('page', 1, type=int)
+        per_page = request.args.get('per_page', 50, type=int)
+        sort_by = request.args.get('sort_by', 'publish_date')
+        sort_dir = request.args.get('sort_dir', 'desc')
+        filter_dept = request.args.get('department')
+
+        # 构建查询
+        query_parts = ["SELECT * FROM sam_opportunities"]
+        params = []
+
+        # 添加过滤条件
+        where_clauses = []
+        if filter_dept:
+            where_clauses.append("department LIKE %s")
+            params.append(f"%{filter_dept}%")
+
+        if where_clauses:
+            query_parts.append("WHERE " + " AND ".join(where_clauses))
+
+        # 添加排序
+        query_parts.append(f"ORDER BY {sort_by} {sort_dir}")
+
+        # 添加分页
+        query_parts.append("LIMIT %s OFFSET %s")
+        params.append(per_page)
+        params.append((page - 1) * per_page)
+
+        # 执行查询
+        query = " ".join(query_parts)
+        opportunities = Database.execute_query(query, params)
+
+        # 获取总数
+        count_query = "SELECT COUNT(*) as total FROM sam_opportunities"
+        count_params = []
+
+        if where_clauses:
+            count_query += " WHERE " + " AND ".join(where_clauses)
+            count_params = params[:-2]  # 排除LIMIT和OFFSET参数
+
+        result = Database.execute_query_single(count_query, count_params)
+        total = result['total'] if result else 0
+
+        # 返回结果
+        return jsonify({
+            'success': True,
+            'opportunities': opportunities,
+            'pagination': {
+                'page': page,
+                'per_page': per_page,
+                'total': total,
+                'pages': (total + per_page - 1) // per_page
+            }
+        })
+    except Exception as e:
+        logger.error(f"获取机会数据失败: {str(e)}")
+        return jsonify({
+            'success': False,
+            'message': f'获取机会数据失败: {str(e)}'
+        }), 500
+
+
+@api_bp.route('/departments', methods=['GET'])
+@requires_auth
+@requires_permission('read')
+def list_departments():
+    """获取所有部门列表，用于路由过滤功能"""
+    try:
+        # 获取唯一的部门列表
+        departments = Database.execute_query(
+            "SELECT DISTINCT department FROM sam_opportunities WHERE department IS NOT NULL ORDER BY department"
+        )
+
+        # 提取部门名称
+        department_names = [dept['department'] for dept in departments if dept['department']]
+
+        return jsonify({
+            'success': True,
+            'departments': department_names
+        })
+    except Exception as e:
+        logger.error(f"获取部门列表失败: {str(e)}")
+        return jsonify({
+            'success': False,
+            'message': f'获取部门列表失败: {str(e)}'
+        }), 500
+
+
+@api_bp.route('/run-crawler', methods=['POST'])
+@requires_auth
+@requires_permission('write')
+@sanitize_input
+def run_crawler():
+    """运行爬虫爬取数据"""
+    try:
+        # 获取请求数据
+        data = request.json
+
+        if not data:
+            return jsonify({'success': False, 'message': '未提供数据'}), 400
+
+        crawler_type = data.get('type', '8A')
+        page_number = data.get('pageNumber', 1)
+        page_size = data.get('pageSize', 200)
+        params = data.get('params', '')
+
+        # 验证参数
+        try:
+            page_number = int(page_number)
+            if page_number <= 0:
+                return jsonify({'success': False, 'message': '页码必须为正整数'}), 400
+        except (ValueError, TypeError):
+            return jsonify({'success': False, 'message': '页码必须为正整数'}), 400
+
+        try:
+            page_size = int(page_size)
+            if page_size <= 0:
+                return jsonify({'success': False, 'message': '页面大小必须为正整数'}), 400
+        except (ValueError, TypeError):
+            return jsonify({'success': False, 'message': '页面大小必须为正整数'}), 400
+
+        # 记录爬虫任务
+        task_id = Database.execute_insert(
+            """
+            INSERT INTO crawler_tasks 
+            (task_type, parameters, status, created_by, created_at) 
+            VALUES (%s, %s, %s, %s, NOW())
+            """,
+            (
+                crawler_type,
+                str({'page': page_number, 'size': page_size, 'params': params}),
+                'pending',
+                g.user['user_id']
+            )
+        )
+
+        # 这里应该启动爬虫进程，通常会使用异步任务队列
+        # 为简化，这里直接返回成功响应
+
+        return jsonify({
+            'success': True,
+            'message': f'爬虫任务已创建，类型: {crawler_type}，参数: {params}',
+            'task_id': task_id
+        })
+    except Exception as e:
+        logger.error(f"创建爬虫任务失败: {str(e)}")
+        return jsonify({
+            'success': False,
+            'message': f'创建爬虫任务失败: {str(e)}'
+        }), 500
+
+
+@api_bp.route('/export-opportunities', methods=['GET'])
+@requires_auth
+@requires_permission('read')
+def export_opportunities():
+    """导出数据为Excel"""
+    try:
+        import pandas as pd
+        import io
+        from flask import send_file
+
+        # 构建查询
+        filter_dept = request.args.get('department')
+
+        query_parts = ["SELECT * FROM sam_opportunities"]
+        params = []
+
+        # 添加过滤条件
+        if filter_dept:
+            query_parts.append("WHERE department LIKE %s")
+            params.append(f"%{filter_dept}%")
+
+        # 添加排序
+        query_parts.append("ORDER BY publish_date DESC")
+
+        # 执行查询
+        query = " ".join(query_parts)
+        opportunities = Database.execute_query(query, params)
+
+        # 将数据转换为DataFrame
+        df = pd.DataFrame(opportunities)
+
+        # 创建内存中的Excel文件
+        output = io.BytesIO()
+
+        # 使用xlsxwriter引擎
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            df.to_excel(writer, sheet_name='Opportunities', index=False)
+
+            # 获取工作表对象以进行格式化
+            workbook = writer.book
+            worksheet = writer.sheets['Opportunities']
+
+            # 设置列宽
+            for i, col in enumerate(df.columns):
+                # 计算列的最大宽度
+                column_len = df[col].astype(str).str.len().max()
+                # 标题的长度
+                header_len = len(str(col))
+                # 取最大值并加上一点额外空间
+                max_len = max(column_len, header_len) + 2
+                # 设置列宽
+                worksheet.set_column(i, i, max_len)
+
+        # 将指针设置到文件开头
+        output.seek(0)
+
+        # 发送文件
+        return send_file(
+            output,
+            mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+            as_attachment=True,
+            download_name='opportunities.xlsx'
+        )
+    except Exception as e:
+        logger.error(f"导出数据失败: {str(e)}")
+        return jsonify({
+            'success': False,
+            'message': f'导出数据失败: {str(e)}'
+        }), 500
+
+
+@api_bp.route('/profile', methods=['GET'])
+@requires_auth
+def get_profile():
+    """获取当前用户的个人资料"""
+    try:
+        # 用户信息已经在拦截器中添加到g对象
+        return jsonify({
+            'success': True,
+            'user': {
+                'id': g.user['user_id'],
+                'username': g.user['username'],
+                'role': g.user['role']
+            }
+        })
+    except Exception as e:
+        logger.error(f"获取用户资料失败: {str(e)}")
+        return jsonify({
+            'success': False,
+            'message': f'获取用户资料失败: {str(e)}'
+        }), 500
